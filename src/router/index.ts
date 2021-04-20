@@ -5,13 +5,13 @@
  * @LastEditTime: 2021-04-19 19:58:18
  * @LastEditors:
  */
-import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHashHistory, Router, RouteRecordRaw } from 'vue-router'
 
-const routes: Array<RouteRecordRaw> = [];
+const routes: Array<RouteRecordRaw> = []
 
-const router = createRouter({
+const router: Router = createRouter({
   history: createWebHashHistory(),
-  routes,
-});
+  routes
+})
 
-export default router;
+export default router

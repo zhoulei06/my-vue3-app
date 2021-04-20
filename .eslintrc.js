@@ -8,7 +8,7 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es2021: true
   },
   extends: [
     'plugin:vue/essential',
@@ -18,12 +18,8 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 12,
     parser: '@typescript-eslint/parser',
-    sourceType: 'module',
+    sourceType: 'module'
   },
-  plugins: [
-    'vue',
-    '@typescript-eslint',
-  ],
-  rules: {
-  },
-};
+  plugins: ['vue', '@typescript-eslint'],
+  rules: {}
+}
