@@ -2,7 +2,7 @@
  * @Description:
  * @Author: ZHOUL
  * @Date: 2021-04-19 20:43:21
- * @LastEditTime: 2021-04-20 21:19:20
+ * @LastEditTime: 2021-04-22 11:27:34
  * @LastEditors:
  */
 module.exports = {
@@ -13,7 +13,8 @@ module.exports = {
   extends: [
     'plugin:vue/essential',
     'airbnb-base',
-    'plugin:prettier/recommended' // 添加 prettier 插件
+    'plugin:prettier/recommended', // 添加 prettier 插件
+    'plugin:jest/recommended'
   ],
   parserOptions: {
     ecmaVersion: 12,
